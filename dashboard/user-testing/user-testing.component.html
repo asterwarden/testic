@@ -1,0 +1,21 @@
+<div>
+  <h1>Обычный</h1>
+  <ng-template #Step{{i}}
+               [ngIf]="currentQuest(i)" *ngFor="let questData of resultQuest; let i = index;">
+    <div>
+      <label>Вопрос {{i+1}}</label>
+      <p>{{questData?.question}}</p>
+      <ul class="answer-list">
+        <li (click)="chooseAnswer(i, questData?.correct_answer)"
+            [class.active]="activeItem && choosenAnswer == questData?.correct_answer"><p>{{questData?.correct_answer}}</p></li>
+        <li (click)="chooseAnswer(i, questDataIncorrect)"
+            [class.active]="activeItem && choosenAnswer == questDataIncorrect"
+            *ngFor="let questDataIncorrect of questData.incorrect_answers; let y = index;">
+          <p>{{questDataIncorrect}}</p>
+        </li>
+      </ul>
+      <button (click)="goNextStep(i)">Отправить</button>
+    </div>
+  </ng-template>
+
+</div>

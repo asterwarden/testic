@@ -1,0 +1,9 @@
+<ul>
+  <li (click)="chooseCategory(category)"
+      *ngFor="let category of AppConst.ARR_CATEGORY; let i = index;"
+  >
+    {{category?.categoryName}}
+  </li>
+</ul>
+
+

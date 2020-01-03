@@ -1,0 +1,123 @@
+{
+  "response_code":0,
+  "results":[
+    {
+      "category":"Entertainment: Music",
+      "type":"multiple",
+      "difficulty":"medium",
+      "question":"Who had a US and UK number 1 hit in 1962 with the instrumental, &#039;Telstar&#039;?",
+      "correct_answer":"The Tornados",
+      "incorrect_answers":[
+        "The Ventures",
+        "The Spotnicks",
+        "The Tremeloes"
+      ]
+    },
+    {
+      "category":"Entertainment: Music",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Where does the Mac part of the name Fleetwood Mac come from?",
+      "correct_answer":"John McVie",
+      "incorrect_answers":[
+        "Christine McVie",
+        "Mac McAnally",
+        "David Tennant"
+      ]
+    },
+    {
+      "category":"Art",
+      "type":"boolean",
+      "difficulty":"easy",
+      "question":"Leonardo da Vinci&#039;s Mona Lisa does not have eyebrows.",
+      "correct_answer":"True",
+      "incorrect_answers":[
+        "False"
+      ]
+    },
+    {
+      "category":"History",
+      "type":"multiple",
+      "difficulty":"medium",
+      "question":"In what year was the famous 45 foot tall Hollywood sign first erected?",
+      "correct_answer":"1923",
+      "incorrect_answers":[
+        "1903",
+        "1913",
+        "1933"
+      ]
+    },
+    {
+      "category":"Entertainment: Japanese Anime & Manga",
+      "type":"multiple",
+      "difficulty":"medium",
+      "question":"In the anime &quot;Mr. Osomatsu&quot;, how many brothers does Osomatsu-san have?",
+      "correct_answer":"5",
+      "incorrect_answers":[
+        "6",
+        "7",
+        "4"
+      ]
+    },
+    {
+      "category":"Entertainment: Video Games",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Which of these is NOT a playable character in the 2016 video game Overwatch?",
+      "correct_answer":"Invoker",
+      "incorrect_answers":[
+        "Mercy",
+        "Winston",
+        "Zenyatta"
+      ]
+    },
+    {
+      "category":"Celebrities",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Gwyneth Paltrow has a daughter named...?",
+      "correct_answer":"Apple",
+      "incorrect_answers":[
+        "Lily",
+        "French",
+        "Dakota"
+      ]
+    },
+    {
+      "category":"Entertainment: Video Games",
+      "type":"multiple",
+      "difficulty":"hard",
+      "question":"In Halo 2, how many rounds does the M6C hold in a single magazine?",
+      "correct_answer":"12",
+      "incorrect_answers":[
+        "6",
+        "36",
+        "18"
+      ]
+    },
+    {
+      "category":"Vehicles",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"Which car tire manufacturer is famous for its &quot;P Zero&quot; line?",
+      "correct_answer":"Pirelli",
+      "incorrect_answers":[
+        "Goodyear",
+        "Bridgestone",
+        "Michelin"
+      ]
+    },
+    {
+      "category":"Science & Nature",
+      "type":"multiple",
+      "difficulty":"easy",
+      "question":"What is the speed of light in a vacuum?",
+      "correct_answer":"299,792,458 m\/s",
+      "incorrect_answers":[
+        "50,461 m\/s",
+        "308,215,043 m\/s",
+        "751,665,014,151 m\/s"
+      ]
+    }
+  ]
+}

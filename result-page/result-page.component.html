@@ -1,0 +1,11 @@
+<div>
+  <label>Result</label>
+  <p>{{resultOfTest}}</p>
+  <p>{{resultTimeOfTest}}</p>
+  <div *ngIf="statusResultOfTest">
+      <p>Тест пройден</p>
+  </div>
+  <div *ngIf="!statusResultOfTest">
+    Тест провален
+  </div>
+</div>

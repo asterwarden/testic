@@ -1,0 +1,43 @@
+<!--<form [formGroup]="loginForm"-->
+      <!--autocomplete="off">-->
+  <!--<div>-->
+    <!--<label>Логин</label>-->
+    <!--<input type="text"-->
+           <!--formControlName="loginField">-->
+  <!--</div>-->
+  <!--<div>-->
+    <!--<label>Пароль</label>-->
+    <!--<input type="password"-->
+           <!--formControlName="passwordField">-->
+  <!--</div>-->
+  <!--<button (click)="checkUser()"-->
+          <!--[disabled]="loginForm.invalid"-->
+          <!--&gt;Войти</button>-->
+<!--</form>-->
+
+<form [formGroup]="mainForm">
+  <div>
+    <label>Имя</label>
+    <input #nameField type="text"
+           formContolName="nameField"
+           (change)="onChangeName($event)">
+  </div>
+  <div>
+    <label>Фамилия</label>
+    <input type="text"
+           formContolName="surnameField"
+           [defaultValue]="startValue">
+  </div>
+  <button (click)="checkData()"
+          >
+    Проверить
+  </button>
+</form>
+<form [formGroup]="subForm">
+  <div>
+    <label>{{currentLabel}}</label>
+    <input type="text"
+           formControlName="dateReceiver">
+  </div>
+</form>
+

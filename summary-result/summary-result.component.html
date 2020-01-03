@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th>Категория</th>
+      <th>Верных ответов</th>
+      <th>Время теста</th>
+      <th>Пройден/провален</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let summaryResultItem of result; let i = index;">
+      <td>{{summaryResultItem?.categoryResult}}</td>
+      <td>{{summaryResultItem?.resultOfTest}}</td>
+      <td>{{summaryResultItem?.resultTimeOfTest}}</td>
+      <td><p *ngIf="summaryResultItem?.resultTimeOfTest">Пройден</p>
+          <p *ngIf="!summaryResultItem?.resultTimeOfTest">Провален</p></td>
+    </tr>
+  </tbody>
+</table>
